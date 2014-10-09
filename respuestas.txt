@@ -61,3 +61,7 @@ s[0,10] = "hello"
 40. ¿Qué queda en g?
 
 "hello world" (se ha añadido a lo que habíamos guardado en g ("hello") la cadena " world")
+
+41. ¿Qué queda en e?
+
+"..." 
