@@ -37,3 +37,9 @@ puts 'Hola \t\n' mostraría la cadena tal cual la hemos escrito: Hola \t\n
 -Funciona como las comillas simples. 
 -"hello world\\n" 
 -"'a' 'b' 'c'"
+
+36. ¿Cómo funciona %Q? ¿Qué es %Q{hello world\n}? ¿Qué es %Q{"a" "b" "c"}?
+
+-Funciona como las commillas dobles.
+-"hello world\n"
+-"\"a\" \"b\" \"c\"" (escapa las comillas)
