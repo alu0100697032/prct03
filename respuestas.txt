@@ -73,3 +73,7 @@ s[0,10] = "hello"
 43. ¿Qué es esto? %w[this is a test]
 
 Da como resultado: ["this", "is", "a", "test"], %w separa en palabras la cadena que le hemos pasado y las guarda en un array  
+
+44. ¿Qué es esto? %w[\t \n]
+
+Da como resultado: ["\\t", "\\n"], vemos que actúa como comillas simples, la cadena se guarda tal cual la hemos escrito
