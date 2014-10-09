@@ -97,3 +97,20 @@ Da como resultado: ["\t", "\n"], %W actúa en este caso como comillas dobles y t
 49. ¿Qué queda en c?
 
 [0, 2, 4] 
+
+50. ¿Cuál es el resultado de cada una de estas operaciones?
+
+2.1.1 :001 > a = ('a'..'e').to_a
+ => ["a", "b", "c", "d", "e"] 
+2.1.1 :002 > a[1,1]
+ => ["b"] 
+2.1.1 :003 > a[-2,2]
+ => ["d", "e"] 
+2.1.1 :004 > a[0..2]
+ => ["a", "b", "c"] 
+2.1.1 :005 > a[0...1]
+ => ["a"] 
+2.1.1 :006 > a[-2..-1]
+ => ["d", "e"] 
+2.1.1 :007 > 
+
