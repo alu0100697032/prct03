@@ -51,3 +51,10 @@ puts 'Hola \t\n' mostraría la cadena tal cual la hemos escrito: Hola \t\n
 38. ¿Qué queda en c?
 
 "--\#{a}--\n--\#{b}--\n" (Esta vez no se han sustituido los valores sino la cadena tal cual la hemos puesto)
+
+39. s = "hello". ¿Cual es el valor de las siguientes expresiones?
+
+s[0,2] = "he"
+s[-1,1] = "o"
+s[0,10] = "hello"
+
