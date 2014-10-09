@@ -25,3 +25,9 @@ Hola Mundo
 Con pry:
 
 Hola Mundo
+
+34.¿Qué diferencia hay entre "\t\n" y ’\t\n’?
+
+Las comillas simples toman la cadena literalmente y las comillas dobles tienen en cuenta los caracteres escapados, es decir: 
+puts "Hola \t\n" mostraría la cadena: Hola 
+puts 'Hola \t\n' mostraría la cadena tal cual la hemos escrito: Hola \t\n 
