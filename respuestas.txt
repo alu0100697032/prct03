@@ -69,3 +69,7 @@ s[0,10] = "hello"
 42. ¿Cuál es el resultado?
 
 "2 2 2"
+
+43. ¿Qué es esto? %w[this is a test]
+
+Da como resultado: ["this", "is", "a", "test"], %w separa en palabras la cadena que le hemos pasado y las guarda en un array  
