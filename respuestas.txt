@@ -77,3 +77,7 @@ Da como resultado: ["this", "is", "a", "test"], %w separa en palabras la cadena 
 44. ¿Qué es esto? %w[\t \n]
 
 Da como resultado: ["\\t", "\\n"], vemos que actúa como comillas simples, la cadena se guarda tal cual la hemos escrito
+
+45. ¿Qué es esto? %W[\t \n]
+
+Da como resultado: ["\t", "\n"], %W actúa en este caso como comillas dobles y tiene en cuenta los tabuladores etc.
