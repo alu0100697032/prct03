@@ -47,3 +47,7 @@ puts 'Hola \t\n' mostraría la cadena tal cual la hemos escrito: Hola \t\n
 37. ¿Qué queda en c?
 
 "--4--\n--2--\n" (Se ha sustituido la a y la b por los valores que le hemos dado previamente)
+
+38. ¿Qué queda en c?
+
+"--\#{a}--\n--\#{b}--\n" (Esta vez no se han sustituido los valores sino la cadena tal cual la hemos puesto)
