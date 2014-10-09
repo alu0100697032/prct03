@@ -43,3 +43,7 @@ puts 'Hola \t\n' mostraría la cadena tal cual la hemos escrito: Hola \t\n
 -Funciona como las commillas dobles.
 -"hello world\n"
 -"\"a\" \"b\" \"c\"" (escapa las comillas)
+
+37. ¿Qué queda en c?
+
+"--4--\n--2--\n" (Se ha sustituido la a y la b por los valores que le hemos dado previamente)
