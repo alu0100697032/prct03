@@ -65,3 +65,7 @@ s[0,10] = "hello"
 41. ¿Qué queda en e?
 
 "..." 
+
+42. ¿Cuál es el resultado?
+
+"2 2 2"
