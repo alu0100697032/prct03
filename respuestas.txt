@@ -81,3 +81,7 @@ Da como resultado: ["\\t", "\\n"], vemos que actúa como comillas simples, la ca
 45. ¿Qué es esto? %W[\t \n]
 
 Da como resultado: ["\t", "\n"], %W actúa en este caso como comillas dobles y tiene en cuenta los tabuladores etc.
+
+46. ¿Qué contiene nils? nils = Array.new(3)
+
+[nil, nil, nil] (un array de tres nulos)
