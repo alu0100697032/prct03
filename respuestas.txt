@@ -93,3 +93,7 @@ Da como resultado: ["\t", "\n"], %W actúa en este caso como comillas dobles y t
 48. ¿Qué queda en b?
 
 [[1, 2], [3, 4]] (ha copiado el contenido del array de x)
+
+49. ¿Qué queda en c?
+
+[0, 2, 4] 
