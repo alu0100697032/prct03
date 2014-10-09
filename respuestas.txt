@@ -89,3 +89,7 @@ Da como resultado: ["\t", "\n"], %W actúa en este caso como comillas dobles y t
 47. ¿Qué contiene zeros? zeros = Array.new(3, 0)
 
 [0, 0, 0] (un array de tres ceros)
+
+48. ¿Qué queda en b?
+
+[[1, 2], [3, 4]] (ha copiado el contenido del array de x)
