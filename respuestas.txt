@@ -275,3 +275,19 @@ hello
 2.1.1 :008 > x.to_s == 'sym'
  => true 
 2.1.1 :009 > 
+
+61. ¿Qué resultados dan las siguientes operaciones?
+
+2.1.1 :001 > s = "Ruby"
+ => "Ruby" 
+2.1.1 :002 > t = s
+ => "Ruby" 
+2.1.1 :003 > t[-1] = ""
+ => "" 
+2.1.1 :004 > print s
+Rub => nil 
+2.1.1 :005 > t = "Java"
+ => "Java" 
+2.1.1 :006 > print s, t
+RubJava => nil 
+2.1.1 :007 > 
