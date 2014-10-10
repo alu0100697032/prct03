@@ -238,3 +238,20 @@ NoMethodError: undefined method `to_a' for 3:Fixnum
 2.1.1 :005 > r.member?99.9
  => true 
 2.1.1 :006 > 
+
+59. ¿Qué resultados dan las siguientes operaciones?
+
+2.1.1 :001 > true.class
+ => TrueClass 
+2.1.1 :002 > false.class
+ => FalseClass 
+2.1.1 :003 > puts "hello" if 0
+hello
+ => nil 
+2.1.1 :004 > puts "hello" if nil
+ => nil 
+2.1.1 :005 > puts "hello" if ""
+(irb):5: warning: string literal in condition
+hello
+ => nil 
+2.1.1 :006 > 
