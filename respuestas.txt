@@ -166,3 +166,9 @@ TypeError: no implicit conversion of Fixnum into Array
 2.1.1 :002 > x = x - %w{b c d}
  => ["a", "a"] 
 2.1.1 :003 > 
+
+54. ¿Cuál es el resultado de cada una de estas operaciones?
+
+2.1.1 :001 > z = [0]*8
+ => [0, 0, 0, 0, 0, 0, 0, 0] 
+2.1.1 :002 > 
