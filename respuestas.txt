@@ -291,3 +291,9 @@ Rub => nil
 2.1.1 :006 > print s, t
 RubJava => nil 
 2.1.1 :007 > 
+
+62. ¿Cuál es el resultado?
+
+2.1.1 :009 > "%d %s" % [3, "rubies"]                                                   
+ => "3 rubies" 
+2.1.1 :010 > 
