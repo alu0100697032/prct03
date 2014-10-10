@@ -347,3 +347,8 @@ Crea un hash con cero elementos.
 2.1.1 :002 > counts = {}
  => {} 
 Crea también un hash con cero elementos.
+
+66. ¿Qué retorna esta expresión regular? ’hello world, hello LPP’.scan /\w+/
+
+2.1.1 :003 > 'hello world, hello LPP'.scan /\w+/                                         
+ => ["hello", "world", "hello", "LPP"] 
