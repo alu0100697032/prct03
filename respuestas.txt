@@ -226,3 +226,15 @@ NoMethodError: undefined method `to_a' for 3:Fixnum
         from (irb):9
         from /usr/local/rvm/rubies/ruby-2.1.1/bin/irb:11:in `<main>'
 2.1.1 :010 > 
+
+58. ¿Qué resultados dan las siguientes operaciones?
+
+2.1.1 :001 > r = 0...100
+ => 0...100 
+2.1.1 :002 > r.member? 50
+ => true 
+2.1.1 :003 > r.include? 99.9
+ => true 
+2.1.1 :005 > r.member?99.9
+ => true 
+2.1.1 :006 > 
