@@ -255,3 +255,23 @@ hello
 hello
  => nil 
 2.1.1 :006 > 
+
+60. ¿Qué resultados dan las siguientes operaciones?
+
+2.1.1 :001 > x = :sym
+ => :sym 
+2.1.1 :002 > x.class
+ => Symbol 
+2.1.1 :003 > x == 'sym'
+ => false 
+2.1.1 :004 > x == :sym
+ => true 
+2.1.1 :005 > z = :'a long simbol'
+ => :"a long simbol" 
+2.1.1 :006 > z.class
+ => Symbol 
+2.1.1 :007 > x == 'sym'.to_sym
+ => true 
+2.1.1 :008 > x.to_s == 'sym'
+ => true 
+2.1.1 :009 > 
